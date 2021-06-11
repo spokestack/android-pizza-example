@@ -1,0 +1,13 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<actions>
+    <action intentName="actions.intent.ORDER_MENU_ITEM">
+        <fulfillment urlTemplate="exampleapp://toppings{?item}">
+            <parameter-mapping
+                intentParameter="menuItem.name"
+                required="true"
+                urlParameter="item" />
+        </fulfillment>
+        <!-- fallback handler -->
+        <fulfillment urlTemplate="exampleapp://toppings" />
+    </action>
+</actions>

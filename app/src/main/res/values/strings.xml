@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExampleApp</string>
+    <string name="example_name">ExampleApp</string>
+    <string name="white_sauce">White Sauce</string>
+    <string name="anchovies">Anchovies</string>
+    <string name="green_peppers">Green Peppers</string>
+    <string name="onions">Onions</string>
+    <string name="mushrooms">Mushrooms</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="dried_tomatoes">Dried Tomatoes</string>
+    <string name="fresh_mozzarella">Fresh Mozzarella</string>
+    <string name="tomato_sauce">Tomato Sauce</string>
+</resources>

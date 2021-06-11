@@ -1,0 +1,36 @@
+{
+  "domain": "pizza",
+  "intents": [
+    {
+      "name": "fallback",
+      "description": "",
+      "implicit_slots": [],
+      "slots": []
+    },
+    {
+      "name": "add.topping",
+      "description": "Add one or more toppings to the pizza",
+      "implicit_slots": [],
+      "slots": [
+        {
+          "name": "topping",
+          "capture_name": "topping",
+          "description": "",
+          "type": "entity",
+          "facets": "{}"
+        }
+      ]
+    },
+    {
+      "name": "order",
+      "description": "Place the order",
+      "implicit_slots": [],
+      "slots": []
+    }
+  ],
+  "tags": [
+    "o",
+    "b_topping",
+    "i_topping"
+  ]
+}

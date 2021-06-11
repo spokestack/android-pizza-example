@@ -1,0 +1,25 @@
+description = "Add one or more toppings to the pizza"
+
+[slots.topping]
+type = "entity"
+values = [
+    "white sauce",
+    "tomato sauce",
+    "fresh mozzarella",
+    "dried tomatoes",
+    "pepperoni",
+    "mushrooms",
+    "onions",
+    "green peppers",
+    "anchovies"
+]
+
+[utterances]
+values = [
+"add {topping}",
+"{topping}",
+"{topping} please",
+"{topping} and {topping}",
+"{topping}, {topping}, and {topping}",
+"{topping} {topping} and {topping}",
+]

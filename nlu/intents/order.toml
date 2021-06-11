@@ -1,0 +1,11 @@
+description = "Place the order"
+
+
+[utterances]
+values = [
+"all done",
+"place the order",
+"done",
+"that's it",
+"place order"
+]

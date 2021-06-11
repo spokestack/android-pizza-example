@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomCheckbox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:button">@drawable/custom_checkbox</item>
+    </style>
+
+</resources>
